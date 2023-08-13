@@ -6,15 +6,16 @@ color: #fff;
 
 }
 body {
-background: url(46677.jpg) repeat center center fixed;
+background: url(435981.jpg) repeat center center fixed;
 background-size: cover;
 }
 header {
-margin-top: 1em;
+margin-top: 6em;
 text-align: center;
 align-items: center;
 flex-direction: column;
 display: flex;
+
 }
 header > img {
 width: 6em;
@@ -32,6 +33,12 @@ color: #fff;
 padding: 0.3em 0.6em;
 background-color: #000a;
 border: 1px solid #fffa;
+ background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 ul {
 box-sizing: border-box;
@@ -39,7 +46,6 @@ list-style: none;
 margin: 0 auto;
 padding: 1em;
 width: 400px;
-
 }
 ul > li {
 background-color: #fffa;
@@ -48,6 +54,7 @@ border-radius: 10em;
 padding: 0.6em;
 margin: 1.4em 0;
 box-shadow: rgb(28 ,32 ,93 / 24%) 0px 2px 8px 0px;
+
 }
 
 ul > li > a {
@@ -56,9 +63,13 @@ flex-direction: row;
 justify-content: center;
 align-items: center;
 gap: 0.5em;
+
+   
+
 }
 
 a {
 color: black;
 text-decoration: none;
 }
+
